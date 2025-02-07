@@ -1,0 +1,92 @@
+[
+    {
+      "canteenName": "Satya Canteen",
+      "location": "3rd Campus",
+      "items": [
+        { "category": "Biryani", "name": "Fry Bit", "price": 120, "available": true },
+        { "category": "Biryani", "name": "Dum", "price": 130, "available": true },
+        { "category": "Biryani", "name": "Mughlai", "price": 150, "available": true },
+        { "category": "Biryani", "name": "Veg", "price": 100, "available": true },
+        { "category": "Drinks", "name": "Maza", "price": 25, "available": true },
+        { "category": "Drinks", "name": "ThumbsUp", "price": 30, "available": true },
+        { "category": "Drinks", "name": "Sprite", "price": 30, "available": true },
+        { "category": "Fried Rice", "name": "Veg", "price": 80, "available": true },
+        { "category": "Fried Rice", "name": "Chicken", "price": 100, "available": true },
+        { "category": "Fried Rice", "name": "Egg", "price": 90, "available": true },
+        { "category": "Porata", "name": "Veg", "price": 50, "available": true },
+        { "category": "Porata", "name": "Chicken", "price": 70, "available": true },
+        { "category": "Tea", "name": "Tea", "price": 15, "available": true }
+      ]
+    },
+    {
+      "canteenName": "K.K Canteen",
+      "location": "3rd Campus",
+      "items": [
+        { "category": "Biryani", "name": "Fry Bit", "price": 120, "available": true },
+        { "category": "Biryani", "name": "Dum", "price": 130, "available": true },
+        { "category": "Biryani", "name": "Mughlai", "price": 150, "available": true },
+        { "category": "Biryani", "name": "Veg", "price": 100, "available": true },
+        { "category": "Drinks", "name": "Maza", "price": 25, "available": true },
+        { "category": "Drinks", "name": "ThumbsUp", "price": 30, "available": true },
+        { "category": "Drinks", "name": "Sprite", "price": 30, "available": true },
+        { "category": "Fried Rice", "name": "Veg", "price": 80, "available": true },
+        { "category": "Fried Rice", "name": "Chicken", "price": 100, "available": true },
+        { "category": "Fried Rice", "name": "Egg", "price": 90, "available": true },
+        { "category": "Porata", "name": "Veg", "price": 50, "available": true },
+        { "category": "Porata", "name": "Chicken", "price": 70, "available": true },
+        { "category": "Tea", "name": "Tea", "price": 15, "available": true }
+      ]
+    },
+    {
+      "canteenName": "Ball Canteen",
+      "location": "1st Campus",
+      "items": [
+        { "category": "Snacks", "name": "Samosa", "price": 20, "available": true },
+        { "category": "Snacks", "name": "Puffs", "price": 25, "available": true },
+        { "category": "Snacks", "name": "Chips", "price": 10, "available": true },
+        { "category": "Drinks", "name": "Coke", "price": 30, "available": true },
+        { "category": "Tea", "name": "Masala Tea", "price": 15, "available": true }
+      ]
+    },
+    {
+      "canteenName": "North Canteen",
+      "location": "4th Campus",
+      "items": [
+        { "category": "South Indian", "name": "Idli", "price": 30, "available": true },
+        { "category": "South Indian", "name": "Dosa", "price": 50, "available": true },
+        { "category": "South Indian", "name": "Vada", "price": 20, "available": true },
+        { "category": "Drinks", "name": "Lassi", "price": 40, "available": true }
+      ]
+    },
+    {
+      "canteenName": "Central Canteen",
+      "location": "Main Campus",
+      "items": [
+        { "category": "Chinese", "name": "Noodles", "price": 80, "available": true },
+        { "category": "Chinese", "name": "Manchurian", "price": 100, "available": true },
+        { "category": "Snacks", "name": "Spring Rolls", "price": 50, "available": true },
+        { "category": "Drinks", "name": "Coffee", "price": 20, "available": true }
+      ]
+    },
+    {
+      "canteenName": "West Canteen",
+      "location": "2nd Campus",
+      "items": [
+        { "category": "Biryani", "name": "Prawn Biryani", "price": 180, "available": true },
+        { "category": "Biryani", "name": "Mutton Biryani", "price": 200, "available": true },
+        { "category": "Drinks", "name": "Lemonade", "price": 20, "available": true },
+        { "category": "Snacks", "name": "Paneer Tikka", "price": 100, "available": true }
+      ]
+    },
+    {
+      "canteenName": "East Canteen",
+      "location": "5th Campus",
+      "items": [
+        { "category": "Continental", "name": "Pasta", "price": 120, "available": true },
+        { "category": "Continental", "name": "Burger", "price": 90, "available": true },
+        { "category": "Continental", "name": "Grilled Sandwich", "price": 80, "available": true },
+        { "category": "Drinks", "name": "Milkshake", "price": 50, "available": true }
+      ]
+    }
+  ]
+  
