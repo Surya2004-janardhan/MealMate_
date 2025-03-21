@@ -1,54 +1,114 @@
-# 🍽️ MealMate - Food Ordering Website
+# 🍽️ MealMate - Seamless Food Ordering Platform  
 
-MealMate is a seamless food ordering application built using **Vite + React** for the frontend and **Node.js + Express + MongoDB** for the backend. It allows users to browse, filter, and order their favorite meals while managing their cart and order history.
+## 🌐 Live Demo:  
+🔗 **[MealMate Live](https://updates-meal-mate-mmcw9ei35-suryas-projects-f3f7a1b9.vercel.app/)**  
 
----
-
-## 🚀 Features
-
-### 🔐 User Authentication
-- Secure **JWT-based authentication** (Login/Signup).
-- Password hashing using **bcrypt**.
-- Persistent user sessions.
-
-### 🛒 Cart Management
-- Users can **add, remove, or update items** in their cart.
-- Cart persists even after page reload.
-
-### 🍕 Food Filtering & Browsing
-- Browse foods **by category** (e.g., Veg, Non-Veg, Salad).
-- Search feature for quick meal discovery.
-
-### 📦 Order Management
-- **Place orders seamlessly** with address input.
-- Orders are stored in MongoDB.
-- Order **status tracking** (e.g., food processing, delivered).
-
-### 💳 Razorpay Integration (Upcoming)
-- Secure online payments via **Razorpay API**.
+MealMate is a **full-stack food ordering** web application that offers a smooth and secure experience. Users can **browse food items by category, manage their cart, place orders, track order status, and pay securely using Razorpay.**  
 
 ---
 
-## 🏗️ Tech Stack
+## 🚀 Features  
 
-### **Frontend (Vite + React)**
-- **React** – Component-based UI.
-- **React Router** – Page navigation.
-- **Context API** – State management for cart & auth.
-- **Axios** – API communication.
-- **Tailwind CSS** – Responsive UI.
+### 🔐 **Secure Authentication (JWT-based)**  
+- **User Signup/Login** with email & password.  
+- Passwords are **hashed using bcrypt** for security.  
+- **JWT-based authentication** for protected routes.  
 
-### **Backend (Node.js + Express)**
-- **Express.js** – Server & API handling.
-- **MongoDB + Mongoose** – Database & ORM.
-- **jsonwebtoken (JWT)** – Secure authentication.
-- **bcrypt** – Password hashing.
+### 🛒 **Smart Cart Management**  
+- **Add, remove, or update** items in the cart.  
+- Cart **persists across sessions** even after page reload.  
+- Automatic calculation of **subtotal & delivery fees**.  
+
+### 🍕 **Food Categories & Filtering**  
+- **Filter food by categories** (e.g., Biryani, Burgers, Desserts).  
+- **Search feature** for quick meal discovery.  
+
+### 💳 **Seamless Razorpay Payment Gateway**  
+- **Integrated Razorpay** for smooth, secure online payments.  
+- Users are **redirected to payment gateway** before confirming an order.  
+- Orders are processed **only after successful payment**.  
+
+### 📦 **Order Management & Tracking**  
+- **Order placement with address input.**  
+- Orders stored securely in **MongoDB**.  
+- **Real-time order status tracking** (Processing → Out for Delivery → Delivered).  
+- **Order history page** for users to track past purchases.  
 
 ---
 
-## 🛠️ Installation & Setup
+## 🏗️ Tech Stack  
 
-### **1️⃣ Clone the Repository**
+### **Frontend (Vite + React.js)**  
+✅ **React.js** – Component-based UI.  
+✅ **React Router** – Page navigation.  
+✅ **Context API** – State management for cart & authentication.  
+✅ **Axios** – API communication.  
+✅ **Tailwind CSS** – Modern responsive design.  
+
+### **Backend (Node.js + Express.js)**  
+✅ **Express.js** – Handles API requests & routing.  
+✅ **MongoDB + Mongoose** – Database & ORM.  
+✅ **jsonwebtoken (JWT)** – Secure user authentication.  
+✅ **bcrypt.js** – Password hashing for security.  
+✅ **Razorpay API** – Secure online payments.  
+
+---
+
+## 🛠️ Installation & Setup  
+
+### **1️⃣ Clone the Repository**  
 ```bash
 git clone https://github.com/Surya2004-janardhan/MealMate_.git
 cd MealMate_
+```
+
+### **2️⃣ Setup Backend**  
+```bash
+cd backend
+npm install
+```
+
+- Start the backend server:  
+  ```bash
+  npm run server
+  ```
+
+### **3️⃣ Setup Frontend**  
+```bash
+cd frontend
+npm install
+```
+
+- Start the frontend:  
+  ```bash
+  npm run dev
+  ```
+
+---
+
+## 🚀 Deployment  
+
+### **Frontend (Vercel)**  
+- Deploy the frontend by linking it to **Vercel**.  
+- Ensure API calls use the **live backend URL**.  
+
+### **Backend (Render)**  
+- Deploy the backend on **Render** with the correct environment variables.  
+- Update the frontend API calls to use **Render’s backend URL**.  
+
+---
+
+
+## 🤝 Contributing  
+Want to contribute? Feel free to fork the repo and submit a **Pull Request**. 🚀  
+
+---
+
+## 🛠️ Upcoming Features  
+🚀 **Admin Dashboard** – Manage food items & orders.  
+📱 **Mobile App Integration** – Future React Native app.  
+🔔 **Real-time Notifications** – Order updates via WebSockets.  
+
+---
+
+💡 **Built with ❤️ by Surya Janardhan**
